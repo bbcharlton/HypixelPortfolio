@@ -16,7 +16,7 @@ git clone https://github.com/bbcharlton/HypixelPortfolio.git
 
 ##### 2. Launch Site
 
-Open the ```index.html``` file in your browser and the site should come up. Enjoy playing!
+Open the ```index.html``` file in your browser and the site should come up.
 
 ___
 
