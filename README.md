@@ -28,4 +28,4 @@ The tech it uses includes:
 * CSS
 * Javascript
 
-![Hypixel Portfolio](http://imgur.com/a/ADV2F.png)
+![Hypixel Portfolio](http://imgur.com/1wKRU9M.png)
