@@ -1,0 +1,113 @@
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:hover, .navbar-default .navbar-toggle:hover {
+	background-color: rgba(0,0,0,0.3);
+	color: #EEE;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border: none;
+}
+
+.navbar-default .navbar-toggle {
+	border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #EEE;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+	color: #EEE;
+}
+
+.navbar {
+	border: none;
+	margin-bottom: 0px;
+	border-radius: 0px;
+	background: linear-gradient(to right, #2978a0 0%,#7db9e8 100%,#7db9e8 100%);
+}
+
+.jumbotron {
+	text-align: center;
+	color: #315659;
+	background-image: url('../images/jumbo-bg.jpg');
+}
+
+.socialMedia {
+	margin-bottom: 0;
+}
+
+.socialMedia img {
+	display: inline-block;
+	margin: 0 15px;
+	border-radius: 50%;
+}
+
+#rating img, #about img {
+	border-radius: 50%;
+}
+
+section h4 {
+	line-height: 40px;
+}
+
+img + h3, h3 + div {
+	text-align: center;
+}
+
+#about {
+	color: #EEE;
+	background-color: #253031;
+}
+
+#about img {
+	margin-bottom: 15px;
+}
+
+#projects {
+	color: #EEE;
+	background: linear-gradient(270deg, #2978a0, #3db1ed, #6296b0, #84c9ed, #1c526d);
+	background-size: 1000% 1000%;
+	animation: projectsAnimation 30s ease infinite;
+}
+
+#projects h3, #code h3 {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #EEE;
+}
+
+#projects img {
+	margin: 15px 0;
+	border-radius: 10%;
+	box-shadow: 1px 1px 5px #333;
+}
+
+#code {
+	color: #EEE;
+	background-color: #BCAB79;
+}
+
+#photos {
+	color: #EEE;
+	background-color: #253031;
+}
+
+#photos h1 {
+	margin: 0;
+	padding: 20px 0;
+}
+
+footer {
+	color: #EEE;
+	height: 200px;
+	background-image: url('../images/footer-bg.png');
+}
+
+footer p:first-of-type {
+	padding-top: 60px;
+}
+
+@keyframes projectsAnimation { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
